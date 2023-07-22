@@ -83,16 +83,8 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
-      },
-      {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Independent Study Program - Binar Academy',
+        stage: '2022',
       },
     ],
   },
@@ -118,12 +110,16 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 
 import CountUp from 'react-countup';
+import Head from 'next/head';
 
 const About = () => {
   const [index, setIndex] = useState(0)
 
   return (
     <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+      <Head>
+        <title>About - Yusron Arly</title>
+      </Head>
       <Cirles />
       <motion.div
         variants={fadeIn('right', 0.2)}
@@ -152,8 +148,7 @@ const About = () => {
             exit="hidden"
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo quae
-            facere dolore animi optio error, ea ab at corrupti?
+            Familiar with several programming languages and popular framework
           </motion.p>
           <motion.div
             variants={fadeIn('right', 0.6)}
@@ -167,7 +162,7 @@ const About = () => {
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10
                 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={4} duration={5} /> +
+                  <CountUp start={0} end={4} duration={10} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Years of experience
@@ -177,7 +172,7 @@ const About = () => {
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10
                 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <CountUp start={0} end={15} duration={5} /> +
+                  <CountUp start={0} end={15} duration={10} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Finished projects

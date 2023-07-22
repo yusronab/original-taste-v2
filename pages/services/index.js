@@ -8,10 +8,14 @@ import Cirles from '../../components/Circles';
 
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
+import Head from 'next/head';
 
 const Services = () => {
   return (
     <div className='h-full bg-primary/30 py-36 flex flex-center'>
+      <Head>
+        <title>Services - Yusron Arly</title>
+      </Head>
       <Cirles />
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8'>
@@ -34,8 +38,8 @@ const Services = () => {
               exit='hidden'
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta dolores,
-              quasi neque fuga non temporibus.
+              Explore our comprehensive list of services and let us assist you in achieving
+              your goals effectively and efficiently.
             </motion.p>
           </div>
           {/* slider */}

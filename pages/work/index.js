@@ -5,10 +5,14 @@ import Cirles from '../../components/Circles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const Work = () => {
   return (
     <div className='h-full bg-primary/30 py-36 flex flex-center'>
+      <Head>
+        <title>Project - Yusron Arly</title>
+      </Head>
       <Cirles />
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8'>
@@ -22,7 +26,7 @@ const Work = () => {
               exit='hidden'
               className='h2 xl:mt-8'
             >
-              My work <span className='text-accent'>.</span>
+              My project <span className='text-accent'>.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn('up', 0.4)}

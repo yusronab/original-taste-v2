@@ -12,27 +12,27 @@ export const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Uniquely crafting brand identities that leave a lasting impression.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Creating visually stunning designs that captivate and inspire.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Building robust solutions for your digital presence.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafting compelling and persuasive content that tells your story.',
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Deployment',
+    description: 'Efficiently launching your projects for a seamless experience.',
   },
 ];
 
