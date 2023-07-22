@@ -36,29 +36,32 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html" />,
+          <FaCss3 key="css" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="next" />,
+          <SiFramer key="framer" />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma key="figma" />,
+          <SiAdobexd key="xd" />,
+          <SiAdobephotoshop key="photoshop" />
+        ],
       },
       {
         title: 'Backend',
         icons: [
-          <SiExpress />,
-          <SiFlask />,
-          <SiPhp />,
-          <SiPostgresql />,
-          <SiMysql />,
-          <SiMongodb />,
-          <SiPostman />
+          <SiExpress key="express" />,
+          <SiFlask key="flask" />,
+          <SiPhp key="php" />,
+          <SiPostgresql key="postgre" />,
+          <SiMysql key="mysql" />,
+          <SiMongodb key="mongo" />,
+          <SiPostman key="postman" />
         ],
       },
     ],
@@ -149,7 +152,7 @@ const About = () => {
             exit="hidden"
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo quae 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo quae
             facere dolore animi optio error, ea ab at corrupti?
           </motion.p>
           <motion.div
