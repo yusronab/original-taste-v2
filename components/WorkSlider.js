@@ -4,8 +4,8 @@ const workSlides = {
     {
       images: [
         {
-          title: '/',
-          path: '/thumb1.jpg',
+          title: 'https://suite-test-yusronab.vercel.app/',
+          path: '/thumb8.jpg',
         },
         {
           title: 'https://binar-car-rental.yusronab.repl.co/',
@@ -16,13 +16,17 @@ const workSlides = {
           path: '/thumb6.jpg',
         },
         {
-          title: '/',
-          path: '/thumb4.jpg',
+          title: 'https://detikcom-yusroab.netlify.app/',
+          path: '/thumb7.jpg',
         },
       ],
     },
     {
       images: [
+        {
+          title: 'https://github.com/yusronab/Hoteloka.git',
+          path: '/thumb9.jpg',
+        },
         {
           title: 'https://binar-car-rental.yusronab.repl.co/',
           path: '/thumb5.jpg',
@@ -34,10 +38,6 @@ const workSlides = {
         {
           title: '/',
           path: '/thumb2.jpg',
-        },
-        {
-          title: '/',
-          path: '/thumb3.jpg',
         },
       ],
     },
