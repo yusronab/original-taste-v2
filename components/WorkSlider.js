@@ -73,11 +73,11 @@ const WorkSlider = () => {
               <div key={index} className='relative rounded-lg overflow-hidden flex
               items-center justify-center group'>
                 <div className='flex items-center justify-center relative overflow-hidden
-                h-[200px]'>
+                h-[120px] md:h-[200px]'>
                   <Image
                     src={image.path}
                     width={500}
-                    height={300}
+                    height={200}
                     alt=''
                   />
                   <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc]

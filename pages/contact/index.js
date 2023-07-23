@@ -13,7 +13,7 @@ import Toast from '../../components/Toast';
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const form = useRef();
 
@@ -72,13 +72,13 @@ const Contact = () => {
             <div className='flex gap-x-6 w-full'>
               <input
                 type='text'
-                placeholder='name'
+                placeholder='name *'
                 name="from_name"
                 required
                 className='input transition-all duration-300 active:scale-90' />
               <input
                 type='email'
-                placeholder='email'
+                placeholder='email *'
                 name="from_email"
                 required
                 className='input transition-all duration-300 active:scale-90 normal-case' />
@@ -86,10 +86,9 @@ const Contact = () => {
             <input
               type='text'
               placeholder='subject'
-              required
               className='input transition-all duration-300 active:scale-95' />
             <textarea
-              placeholder='message'
+              placeholder='message *'
               name="message"
               required
               className='textarea transition-all duration-300 active:scale-95 normal-case'>
