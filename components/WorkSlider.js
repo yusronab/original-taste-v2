@@ -37,7 +37,7 @@ const workSlides = {
         },
         {
           title: '/',
-          path: '/thumb2.jpg',
+          path: '/thumb4.jpg',
         },
       ],
     },
@@ -72,7 +72,8 @@ const WorkSlider = () => {
             {slide.images.map((image, index) => (
               <div key={index} className='relative rounded-lg overflow-hidden flex
               items-center justify-center group'>
-                <div className='flex items-center justify-center relative overflow-hidden'>
+                <div className='flex items-center justify-center relative overflow-hidden
+                h-[200px]'>
                   <Image
                     src={image.path}
                     width={500}
